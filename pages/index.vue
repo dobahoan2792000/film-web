@@ -1,15 +1,17 @@
 <template>
   <main>
-    <Login />
+    <Home />
   </main>
 </template>
 
 <script>
+import Navigator from '../components/Navigator.vue'
 export default {}
 </script>
 
 <style>
-/* Sample `apply` at-rules with Tailwind CSS
+/* Sample
+Navigator `apply` at-rules with Tailwind CSS
 .container {
 @apply min-h-screen flex justify-center items-center text-center mx-auto;
 }
