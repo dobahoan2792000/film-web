@@ -1,0 +1,10 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@responsive {
+  .bg-home {
+    background-image: url("../../static/img/bg.png");
+    background-color: rgba(255, 255, 255, 0.3);
+    background-blend-mode: overlay;
+  }
+}

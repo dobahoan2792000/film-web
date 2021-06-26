@@ -1,7 +1,7 @@
 <template>
-  <div class="h-screen w-screen flex">
+  <div class="h-screen w-screen flex relative">
     <Navigator />
-    <Nuxt />
+    <Nuxt class="ml-16"/>
   </div>
 </template>
 
