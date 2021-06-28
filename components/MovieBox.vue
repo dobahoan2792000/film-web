@@ -4,6 +4,9 @@
       class="
         h-full
         overflow-hidden
+         group
+            hover:shadow-2xl
+        duration-150
       "
     >
       <img class="h-80 w-full object-cover" :src="movie.poster" alt="blog" />
