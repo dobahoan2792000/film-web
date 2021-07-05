@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen w-screen flex relative">
+  <div class="h-screen w-screen flex">
     <Navigator class="z-50" />
     <Nuxt class="ml-16" />
   </div>
